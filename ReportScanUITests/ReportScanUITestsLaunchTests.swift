@@ -2,7 +2,7 @@
 //  ReportScanUITestsLaunchTests.swift
 //  ReportScanUITests
 //
-//  Created by 川上晴也 on 2026/01/29.
+//  Created by k-haruya on 2026/01/29.
 //
 
 import XCTest
