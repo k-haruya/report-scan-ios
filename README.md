@@ -1,6 +1,10 @@
-# ReportScan
+# ReportScan（レポートスキャン）
 
 📄 iOSドキュメントスキャナーアプリ
+
+[**📲 App Storeで公開中**](https://apps.apple.com/jp/app/id6758909865) — 完全無料・広告なし・サブスクなし
+
+> 画像処理パラメータのチューニングに使用したCLIツールはこちら → [report-scan-filter-tuner](https://github.com/k-haruya/report-scan-filter-tuner)
 
 ## 概要
 
