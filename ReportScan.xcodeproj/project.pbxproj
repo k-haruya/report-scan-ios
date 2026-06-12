@@ -6,6 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C82B6B9F2F36D9FF0007F5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82B6B9E2F36D9FF0007F5A7 /* Assets.xcassets */; };
+		C82B6BA12F37E0000007F5A7 /* ImageFilters.metal in Sources */ = {isa = PBXBuildFile; fileRef = C82B6BA02F37E0000007F5A7 /* ImageFilters.metal */; };
+		C84D96A32F2B401E00A7B3DB /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = C84D96A22F2B401E00A7B3DB /* ZIPFoundation */; };
+		C84D97692F2B4B6E00A7B3DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C84D975D2F2B4B6E00A7B3DB /* Localizable.strings */; };
+		C84D976A2F2B4B6E00A7B3DB /* ScannedDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97562F2B4B6E00A7B3DB /* ScannedDocument.swift */; };
+		C84D976B2F2B4B6E00A7B3DB /* ImageFilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D975F2F2B4B6E00A7B3DB /* ImageFilterService.swift */; };
+		C84D976C2F2B4B6E00A7B3DB /* DocumentFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97552F2B4B6E00A7B3DB /* DocumentFolder.swift */; };
+		C84D976E2F2B4B6E00A7B3DB /* TXTExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97632F2B4B6E00A7B3DB /* TXTExportService.swift */; };
+		C84D976F2F2B4B6E00A7B3DB /* PDFExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97612F2B4B6E00A7B3DB /* PDFExportService.swift */; };
+		C84D97712F2B4B6E00A7B3DB /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97602F2B4B6E00A7B3DB /* OCRService.swift */; };
+		C84D97732F2B4B6E00A7B3DB /* WordExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97642F2B4B6E00A7B3DB /* WordExportService.swift */; };
+		C84D97742F2B4B6E00A7B3DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97672F2B4B6E00A7B3DB /* Constants.swift */; };
+		C84D97752F2B4B6E00A7B3DB /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97662F2B4B6E00A7B3DB /* ColorTheme.swift */; };
+		C84D977C2F2B51F100A7B3DB /* ReportScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97792F2B51F100A7B3DB /* ReportScanApp.swift */; };
+		C84D977E2F2B52B700A7B3DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D970C2F2B492600A7B3DB /* HomeView.swift */; };
+		C84D977F2F2B52D500A7B3DB /* FilterPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97032F2B492600A7B3DB /* FilterPreviewView.swift */; };
+		C84D97802F2B52D900A7B3DB /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97042F2B492600A7B3DB /* ImageEditorView.swift */; };
+		C84D97812F2B52DD00A7B3DB /* OCRResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97052F2B492600A7B3DB /* OCRResultView.swift */; };
+		C84D97822F2B52E500A7B3DB /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97072F2B492600A7B3DB /* ExportView.swift */; };
+		C84D97832F2B52EA00A7B3DB /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D970B2F2B492600A7B3DB /* FolderListView.swift */; };
+		C84D97842F2B52EF00A7B3DB /* DocumentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D970A2F2B492600A7B3DB /* DocumentRowView.swift */; };
+		C84D97852F2B52F200A7B3DB /* DocumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97092F2B492600A7B3DB /* DocumentListView.swift */; };
+		C84D97862F2B52F700A7B3DB /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D970E2F2B492600A7B3DB /* DocumentScannerView.swift */; };
+		C84D97872F2B52FB00A7B3DB /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D970F2F2B492600A7B3DB /* PhotoPickerView.swift */; };
+		C84D978A2F2B559100A7B3DB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97002F2B492600A7B3DB /* HomeViewModel.swift */; };
+		C84D978B2F2B55A000A7B3DB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97102F2B492700A7B3DB /* SettingsView.swift */; };
+		C84D978E2F2C8D4400A7B3DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C84D978C2F2C8D4400A7B3DB /* InfoPlist.strings */; };
+		C84D97902F2C917E00A7B3DB /* FilterConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D978F2F2C917E00A7B3DB /* FilterConfig.swift */; };
+		C84D97922F2C919100A7B3DB /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D97912F2C919100A7B3DB /* AppStrings.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C84D960E2F2B393300A7B3DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,34 +56,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C82B6B9E2F36D9FF0007F5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C82B6BA02F37E0000007F5A7 /* ImageFilters.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ImageFilters.metal; sourceTree = "<group>"; };
 		C84D95FE2F2B393200A7B3DB /* ReportScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReportScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84D960D2F2B393300A7B3DB /* ReportScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReportScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84D96172F2B393300A7B3DB /* ReportScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReportScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84D97002F2B492600A7B3DB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C84D97032F2B492600A7B3DB /* FilterPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPreviewView.swift; sourceTree = "<group>"; };
+		C84D97042F2B492600A7B3DB /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorView.swift; sourceTree = "<group>"; };
+		C84D97052F2B492600A7B3DB /* OCRResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRResultView.swift; sourceTree = "<group>"; };
+		C84D97072F2B492600A7B3DB /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		C84D97092F2B492600A7B3DB /* DocumentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListView.swift; sourceTree = "<group>"; };
+		C84D970A2F2B492600A7B3DB /* DocumentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentRowView.swift; sourceTree = "<group>"; };
+		C84D970B2F2B492600A7B3DB /* FolderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
+		C84D970C2F2B492600A7B3DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C84D970E2F2B492600A7B3DB /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
+		C84D970F2F2B492600A7B3DB /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		C84D97102F2B492700A7B3DB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C84D97552F2B4B6E00A7B3DB /* DocumentFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFolder.swift; sourceTree = "<group>"; };
+		C84D97562F2B4B6E00A7B3DB /* ScannedDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedDocument.swift; sourceTree = "<group>"; };
+		C84D97582F2B4B6E00A7B3DB /* ReportScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportScanTests.swift; sourceTree = "<group>"; };
+		C84D975A2F2B4B6E00A7B3DB /* ReportScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportScanUITests.swift; sourceTree = "<group>"; };
+		C84D975B2F2B4B6E00A7B3DB /* ReportScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C84D975D2F2B4B6E00A7B3DB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C84D975F2F2B4B6E00A7B3DB /* ImageFilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterService.swift; sourceTree = "<group>"; };
+		C84D97602F2B4B6E00A7B3DB /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		C84D97612F2B4B6E00A7B3DB /* PDFExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExportService.swift; sourceTree = "<group>"; };
+		C84D97632F2B4B6E00A7B3DB /* TXTExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXTExportService.swift; sourceTree = "<group>"; };
+		C84D97642F2B4B6E00A7B3DB /* WordExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordExportService.swift; sourceTree = "<group>"; };
+		C84D97662F2B4B6E00A7B3DB /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		C84D97672F2B4B6E00A7B3DB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C84D97792F2B51F100A7B3DB /* ReportScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportScanApp.swift; sourceTree = "<group>"; };
+		C84D978B2F2C8D4400A7B3DB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C84D978F2F2C917E00A7B3DB /* FilterConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterConfig.swift; sourceTree = "<group>"; };
+		C84D97912F2C919100A7B3DB /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C84D96002F2B393200A7B3DB /* ReportScan */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReportScan;
-			sourceTree = "<group>";
-		};
-		C84D96102F2B393300A7B3DB /* ReportScanTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReportScanTests;
-			sourceTree = "<group>";
-		};
-		C84D961A2F2B393300A7B3DB /* ReportScanUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReportScanUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C84D95FB2F2B393200A7B3DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84D96A32F2B401E00A7B3DB /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +121,15 @@
 		C84D95F52F2B393200A7B3DB = {
 			isa = PBXGroup;
 			children = (
-				C84D96002F2B393200A7B3DB /* ReportScan */,
-				C84D96102F2B393300A7B3DB /* ReportScanTests */,
-				C84D961A2F2B393300A7B3DB /* ReportScanUITests */,
+				C84D977A2F2B51F100A7B3DB /* ReportScan */,
+				C84D97572F2B4B6E00A7B3DB /* Models */,
+				C84D97592F2B4B6E00A7B3DB /* ReportScanTests */,
+				C84D975C2F2B4B6E00A7B3DB /* ReportScanUITests */,
+				C84D975E2F2B4B6E00A7B3DB /* Resources */,
+				C84D97652F2B4B6E00A7B3DB /* Services */,
+				C84D97682F2B4B6E00A7B3DB /* Utilities */,
+				C84D97022F2B492600A7B3DB /* ViewModels */,
+				C84D97112F2B492600A7B3DB /* Views */,
 				C84D95FF2F2B393200A7B3DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +142,148 @@
 				C84D96172F2B393300A7B3DB /* ReportScanUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C84D97022F2B492600A7B3DB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97002F2B492600A7B3DB /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C84D97062F2B492600A7B3DB /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97032F2B492600A7B3DB /* FilterPreviewView.swift */,
+				C84D97042F2B492600A7B3DB /* ImageEditorView.swift */,
+				C84D97052F2B492600A7B3DB /* OCRResultView.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		C84D97082F2B492600A7B3DB /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97072F2B492600A7B3DB /* ExportView.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		C84D970D2F2B492600A7B3DB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97092F2B492600A7B3DB /* DocumentListView.swift */,
+				C84D970A2F2B492600A7B3DB /* DocumentRowView.swift */,
+				C84D970B2F2B492600A7B3DB /* FolderListView.swift */,
+				C84D970C2F2B492600A7B3DB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C84D97102F2B492600A7B3DB /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				C84D970E2F2B492600A7B3DB /* DocumentScannerView.swift */,
+				C84D970F2F2B492600A7B3DB /* PhotoPickerView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		C84D97112F2B492600A7B3DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97062F2B492600A7B3DB /* Edit */,
+				C84D97082F2B492600A7B3DB /* Export */,
+				C84D970D2F2B492600A7B3DB /* Home */,
+				C84D97102F2B492600A7B3DB /* Scan */,
+				C84D978C2F2B55B000A7B3DB /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C84D97572F2B4B6E00A7B3DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97552F2B4B6E00A7B3DB /* DocumentFolder.swift */,
+				C84D97562F2B4B6E00A7B3DB /* ScannedDocument.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C84D97592F2B4B6E00A7B3DB /* ReportScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97582F2B4B6E00A7B3DB /* ReportScanTests.swift */,
+			);
+			path = ReportScanTests;
+			sourceTree = "<group>";
+		};
+		C84D975C2F2B4B6E00A7B3DB /* ReportScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C84D975A2F2B4B6E00A7B3DB /* ReportScanUITests.swift */,
+				C84D975B2F2B4B6E00A7B3DB /* ReportScanUITestsLaunchTests.swift */,
+			);
+			path = ReportScanUITests;
+			sourceTree = "<group>";
+		};
+		C84D975E2F2B4B6E00A7B3DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C82B6B9E2F36D9FF0007F5A7 /* Assets.xcassets */,
+				C84D978D2F2C8D4400A7B3DB /* ja.lproj */,
+				C84D975D2F2B4B6E00A7B3DB /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C84D97652F2B4B6E00A7B3DB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C84D978F2F2C917E00A7B3DB /* FilterConfig.swift */,
+				C82B6BA02F37E0000007F5A7 /* ImageFilters.metal */,
+				C84D975F2F2B4B6E00A7B3DB /* ImageFilterService.swift */,
+				C84D97602F2B4B6E00A7B3DB /* OCRService.swift */,
+				C84D97612F2B4B6E00A7B3DB /* PDFExportService.swift */,
+				C84D97632F2B4B6E00A7B3DB /* TXTExportService.swift */,
+				C84D97642F2B4B6E00A7B3DB /* WordExportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C84D97682F2B4B6E00A7B3DB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97912F2C919100A7B3DB /* AppStrings.swift */,
+				C84D97662F2B4B6E00A7B3DB /* ColorTheme.swift */,
+				C84D97672F2B4B6E00A7B3DB /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C84D977A2F2B51F100A7B3DB /* ReportScan */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97792F2B51F100A7B3DB /* ReportScanApp.swift */,
+			);
+			path = ReportScan;
+			sourceTree = "<group>";
+		};
+		C84D978C2F2B55B000A7B3DB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C84D97102F2B492700A7B3DB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C84D978D2F2C8D4400A7B3DB /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C84D978C2F2C8D4400A7B3DB /* InfoPlist.strings */,
+			);
+			path = ja.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +301,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C84D96002F2B393200A7B3DB /* ReportScan */,
-			);
 			name = ReportScan;
 			packageProductDependencies = (
+				C84D96A22F2B401E00A7B3DB /* ZIPFoundation */,
 			);
 			productName = ReportScan;
 			productReference = C84D95FE2F2B393200A7B3DB /* ReportScan.app */;
@@ -129,9 +321,6 @@
 			);
 			dependencies = (
 				C84D960F2F2B393300A7B3DB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C84D96102F2B393300A7B3DB /* ReportScanTests */,
 			);
 			name = ReportScanTests;
 			packageProductDependencies = (
@@ -152,9 +341,6 @@
 			);
 			dependencies = (
 				C84D96192F2B393300A7B3DB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C84D961A2F2B393300A7B3DB /* ReportScanUITests */,
 			);
 			name = ReportScanUITests;
 			packageProductDependencies = (
@@ -187,14 +373,18 @@
 				};
 			};
 			buildConfigurationList = C84D95F92F2B393200A7B3DB /* Build configuration list for PBXProject "ReportScan" */;
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = C84D95F52F2B393200A7B3DB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C84D96A02F2B3F2100A7B3DB /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C84D95FF2F2B393200A7B3DB /* Products */;
 			projectDirPath = "";
@@ -212,6 +402,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84D97692F2B4B6E00A7B3DB /* Localizable.strings in Resources */,
+				C82B6B9F2F36D9FF0007F5A7 /* Assets.xcassets in Resources */,
+				C84D978E2F2C8D4400A7B3DB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +429,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84D976A2F2B4B6E00A7B3DB /* ScannedDocument.swift in Sources */,
+				C84D977F2F2B52D500A7B3DB /* FilterPreviewView.swift in Sources */,
+				C84D977E2F2B52B700A7B3DB /* HomeView.swift in Sources */,
+				C84D976B2F2B4B6E00A7B3DB /* ImageFilterService.swift in Sources */,
+				C84D97812F2B52DD00A7B3DB /* OCRResultView.swift in Sources */,
+				C84D976C2F2B4B6E00A7B3DB /* DocumentFolder.swift in Sources */,
+				C84D97922F2C919100A7B3DB /* AppStrings.swift in Sources */,
+				C84D97872F2B52FB00A7B3DB /* PhotoPickerView.swift in Sources */,
+				C84D97862F2B52F700A7B3DB /* DocumentScannerView.swift in Sources */,
+				C84D97852F2B52F200A7B3DB /* DocumentListView.swift in Sources */,
+				C84D97842F2B52EF00A7B3DB /* DocumentRowView.swift in Sources */,
+				C84D97802F2B52D900A7B3DB /* ImageEditorView.swift in Sources */,
+				C84D976E2F2B4B6E00A7B3DB /* TXTExportService.swift in Sources */,
+				C84D976F2F2B4B6E00A7B3DB /* PDFExportService.swift in Sources */,
+				C84D97712F2B4B6E00A7B3DB /* OCRService.swift in Sources */,
+				C84D97832F2B52EA00A7B3DB /* FolderListView.swift in Sources */,
+				C84D97732F2B4B6E00A7B3DB /* WordExportService.swift in Sources */,
+				C84D978A2F2B559100A7B3DB /* HomeViewModel.swift in Sources */,
+				C84D97742F2B4B6E00A7B3DB /* Constants.swift in Sources */,
+				C84D977C2F2B51F100A7B3DB /* ReportScanApp.swift in Sources */,
+				C84D97822F2B52E500A7B3DB /* ExportView.swift in Sources */,
+				C84D97902F2C917E00A7B3DB /* FilterConfig.swift in Sources */,
+				C84D97752F2B4B6E00A7B3DB /* ColorTheme.swift in Sources */,
+				C84D978B2F2B55A000A7B3DB /* SettingsView.swift in Sources */,
+				C82B6BA12F37E0000007F5A7 /* ImageFilters.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +485,17 @@
 			targetProxy = C84D96182F2B393300A7B3DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C84D978C2F2C8D4400A7B3DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84D978B2F2C8D4400A7B3DB /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C84D961F2F2B393300A7B3DB /* Debug */ = {
@@ -321,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -378,7 +607,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -392,11 +621,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 84Y83K9Y6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "書類をスキャンするためにカメラへのアクセスが必要です";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリから画像を読み込むためにアクセスが必要です";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -407,6 +638,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haruy.ReportScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -423,11 +656,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 84Y83K9Y6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "書類をスキャンするためにカメラへのアクセスが必要です";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリから画像を読み込むためにアクセスが必要です";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,6 +673,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haruy.ReportScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -457,7 +694,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.haruy.ReportScanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,7 +715,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.haruy.ReportScanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,6 +807,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C84D96A02F2B3F2100A7B3DB /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C84D96A22F2B401E00A7B3DB /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84D96A02F2B3F2100A7B3DB /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C84D95F62F2B393200A7B3DB /* Project object */;
 }

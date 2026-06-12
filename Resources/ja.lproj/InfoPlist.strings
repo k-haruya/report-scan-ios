@@ -1,0 +1,3 @@
+/* アプリの表示名 */
+CFBundleDisplayName = "レポートスキャン";
+CFBundleName = "レポートスキャン";
