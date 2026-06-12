@@ -2,9 +2,30 @@
 
 📄 iOSドキュメントスキャナーアプリ
 
+![Swift](https://img.shields.io/badge/Swift-5.9+-F05138?logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-blue?logo=swift&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-17.0+-black?logo=apple)
+[![App Store](https://img.shields.io/badge/App_Store-公開中-0D96F6?logo=appstore&logoColor=white)](https://apps.apple.com/jp/app/id6758909865)
+
 [**📲 App Storeで公開中**](https://apps.apple.com/jp/app/id6758909865) — 完全無料・広告なし・サブスクなし
 
-> 画像処理パラメータのチューニングに使用したCLIツールはこちら → [report-scan-filter-tuner](https://github.com/k-haruya/report-scan-filter-tuner)
+[English README is here](README.en.md) | 画像処理パラメータのチューニングに使用したCLIツール → [report-scan-filter-tuner](https://github.com/k-haruya/report-scan-filter-tuner)
+
+## スクリーンショット
+
+| | 影除去前 | 影除去後 | OCR | エクスポート |
+|---|---|---|---|---|
+| <img src="docs/screenshots/01_hero.png" width="160"> | <img src="docs/screenshots/02_before.png" width="160"> | <img src="docs/screenshots/03_after.png" width="160"> | <img src="docs/screenshots/04_ocr.png" width="160"> | <img src="docs/screenshots/05_export.png" width="160"> |
+
+## 技術ハイライト
+
+本リポジトリのREADME後半には、開発中に直面した問題と解決の全記録(開発ログ)を残しています。主なポイント:
+
+- **独自の影除去アルゴリズム**: Division Normalization(背景除算)+ 適応的二値化をCore Image + **Metal CI Kernel**で実装。パラメータは自作CLIツール([report-scan-filter-tuner](https://github.com/k-haruya/report-scan-filter-tuner))で系統的にスイープして決定
+- **メモリ最適化**: SwiftDataの`@Attribute(.externalStorage)`、`autoreleasepool`によるバッチ処理のピーク制御、`CGImageSourceCreateThumbnailAtIndex`によるダウンサンプリングでOOMクラッシュを解消
+- **UIレスポンス**: 画像回転をView State + 保存時EXIF適用に分離して0ms遅延を実現。UIKit `UIScrollView`をSwiftUIに統合しズーム/パン/スクロールのジェスチャー競合を解決
+- **Swift Concurrency**: MainActor分離・`Task.detached`・`nonisolated`の使い分けを実践(開発ログ#11参照)
+- **完全オンデバイス処理**: OCR(Vision)・画像処理ともに外部送信なしのプライバシー設計
 
 ## 概要
 
